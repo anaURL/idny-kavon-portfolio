@@ -532,8 +532,8 @@ pre {
 .col-xl-auto {
   position: relative;
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px; }
+  padding-right: 5px;
+  padding-left: 5px; }
 
 .col {
   -ms-flex-preferred-size: 0;
@@ -4831,9 +4831,9 @@ input[type="button"].btn-block {
 
 .close {
   float: right;
-  font-size: 1.5rem;
-  font-weight: 700;
-  line-height: 1;
+  font-size: 0.5rem;
+  font-weight: 200;
+  line-height: 0.2;
   color: #000;
   text-shadow: 0 1px 0 #fff;
   opacity: .5; }
@@ -4841,7 +4841,7 @@ input[type="button"].btn-block {
     color: #000;
     text-decoration: none; }
   .close:not(:disabled):not(.disabled):hover, .close:not(:disabled):not(.disabled):focus {
-    opacity: .75; }
+    opacity: .80; }
 
 button.close {
   padding: 0;
@@ -5090,6 +5090,8 @@ a.close.disabled {
 @media (min-width: 1200px) {
   .modal-xl {
     max-width: 1140px; } }
+
+.
 
 .tooltip {
   position: absolute;
@@ -8557,7 +8559,7 @@ h1, h2, h3, h4, h5,
     #colorlib-aside .colorlib-footer a {
       color: rgba(255, 255, 255, 0.7); }
     #colorlib-aside .colorlib-footer .pfooter {
-      font-size: 14px; }
+      font-size: 10px; }
     #colorlib-aside .colorlib-footer .colorlib-subscribe-form {
       width: 100%; }
       #colorlib-aside .colorlib-footer .colorlib-subscribe-form .form-group {
@@ -8919,71 +8921,46 @@ h1, h2, h3, h4, h5,
   .btn-custom-load:hover {
     color: #000000; }
 
-.single .img-single {
-  width: 100%;
-  height: 1500px; }
-  @media (max-width: 991.98px) {
-    .single .img-single {
-      height: 700px; } }
-  @media (max-width: 767.98px) {
-    .single .img-single {
-      height: 500px; } }
+  .photogrid-container {
+      width: 100%;
+      position: relative;
+    }
+
+    #photogrid {
+      padding-left: 0px;
+    }
+  
+  .close {
+    font-size: 1rem;
+    }
+    
+    .col-12 img {
+    opacity: 0.7;
+    cursor: pointer;
+    width: 100%;
+    padding-left: 0;
+    }
+    
+  .col-12 img:hover {
+    opacity: 1;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+
 
 .single h1 {
   font-family: "Abril Fatface", cursive;
   color: #fff;
-  font-size: 50px; }
+  font-size: 50px; 
+} @media (max-width: 768px) {
+          .single h1 {
+            font-size:  40px;  
+          }
+}
 
-.pricing {
-  display: block;
-  width: 100%;
-  margin-bottom: 0; }
-  .pricing .img {
-    position: relative;
-    z-index: 0; }
-    .pricing .img:after {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      content: '';
-      background: #000000;
-      opacity: .3;
-      z-index: -1; }
-  .pricing .text {
-    position: relative; }
-    .pricing .text h3 {
-      font-weight: 700;
-      color: #fff;
-      font-size: 22px;
-      margin-bottom: 30px; }
-    .pricing .text ul {
-      margin: 0;
-      padding: 0; }
-      .pricing .text ul li {
-        font-size: 14px;
-        color: #fff;
-        list-style: none;
-        display: block;
-        margin-bottom: 20px; }
-        .pricing .text ul li span {
-          font-size: 12px;
-          display: block;
-          color: rgba(255, 255, 255, 0.6);
-          text-transform: uppercase; }
-    .pricing .text span.price {
-      font-size: 30px;
-      font-weight: 700;
-      color: #fff; }
-    .pricing .text .btn-custom {
-      text-transform: uppercase;
-      font-size: 12px;
-      letter-spacing: 3px;
-      color: #f3c623;
-      font-weight: 700;
-      border: 1px solid #f3c623;
-      padding: 2px 5px; }
+
+
+
 
 .form-control {
   height: 52px !important;
