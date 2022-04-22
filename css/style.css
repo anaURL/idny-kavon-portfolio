@@ -323,9 +323,9 @@ h6, .h6 {
   .header__nav__social {
     display: inline-block;
     position: relative;
-    padding-left: 50px;
+    padding-left: 5px;
   }
-  .header__nav__social:before {
+  /* .header__nav__social:before {
     position: absolute;
     left: 0;
     top: 4px;
@@ -333,7 +333,7 @@ h6, .h6 {
     width: 1px;
     background: rgba(225, 225, 225, 0.2);
     content: "";
-  }
+  } */
   .header__nav__social a {
     color: #ffffff;
     font-size: 15px;
