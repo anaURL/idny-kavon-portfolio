@@ -424,7 +424,9 @@ mark,
   height: auto; }
 
 .figure {
-  display: inline-block; }
+  display: inline-block;
+}
+
 
 .figure-img {
   margin-bottom: 0.5rem;
@@ -434,6 +436,20 @@ mark,
   font-size: 90%;
   color: #6c757d; }
 
+  figure {
+    height: 0;
+    padding-bottom: 56.25%; /* 16:9 */
+    position: relative;
+    width: 100%;
+  }
+  iframe {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  
 code {
   font-size: 87.5%;
   color: #e83e8c;
