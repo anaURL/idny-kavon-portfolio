@@ -1,1 +1,1 @@
-Idny Kavon portfolio template
+Portfolio for multidisciplinary artist Idny Kavon made with Colorib template
