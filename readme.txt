@@ -1,1 +1,1 @@
-Portfolio for multidisciplinary artist Idny Kavon personalized with Colorib template. 
+Portfolio site showcasing exciting motion graphics that use stellar 3D design and imagery by talented multidisciplinary artist Idny Kavon.
