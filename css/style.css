@@ -57,7 +57,7 @@ body {
   line-height: 1.5;
   color: rgb(255,255,255);
   text-align: left;
-  background-color: rgb(255,255,255); }
+  background-color: #f9f9f9; }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important; }
@@ -8409,7 +8409,7 @@ body {
       -o-transform: translateX(0);
       transform: translateX(0);
       width: 270px;
-      background: #fff;
+      background: #f9f9f9;
       z-index: 999;
       position: fixed; }
     body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
@@ -8468,7 +8468,7 @@ h1, h2, h3, h4, h5,
     #colorlib-aside {
       width: 270px;
       background-color: #f9f9f9;
-      background: url(../images/ribbon_bez-01.png) no-repeat right top #fff !important;
+      background: url(../images/ribbon_bez-01.png) no-repeat right top #f9f9f9 !important;
       -moz-transform: translateX(-270px);
       -webkit-transform: translateX(-270px);
       -ms-transform: translateX(-270px);
@@ -8674,7 +8674,7 @@ h1, h2, h3, h4, h5,
       content: '';
       width: 20px;
       height: 2px;
-      background:#ffffff;
+      background:#f9f9f9;
       position: absolute;
       left: 0;
       -moz-transition: all 0.2s ease;
