@@ -9186,12 +9186,6 @@ textarea.form-control {
     /* Firefox 18- */
     color: #000 !important; }
 
-#map {
-  height: 500px;
-  width: 100%; }
-  @media (max-width: 767.98px) {
-    #map {
-      height: 300px; } }
 
 .tagcloud {
   padding: 0; }
