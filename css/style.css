@@ -555,6 +555,10 @@ pre {
   padding-left: 4px;
   padding-bottom: 8px; }
 
+ #hp-link {
+   padding:0;
+ }
+
 .col {
   -ms-flex-preferred-size: 0;
   flex-basis: 0;
@@ -8391,7 +8395,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background: rgba(265 265 265);
+  background: #f9f9f9;
   font-size: 15px;
   line-height: 1.8;
   font-weight: 400;
@@ -8420,7 +8424,7 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #dfd0a9; }
+  color: #dfd0a9 }
   a:hover, a:focus {
     text-decoration: none;
     color: #dfd0a9;
@@ -8451,7 +8455,7 @@ h1, h2, h3, h4, h5,
   right: 0;
   overflow-y: hidden;
   z-index: 1001;
-  background: url(../images/aside.png) no-repeat right top #f9f9f9;
+  background: url(../images/ribbon_bez-01.png) no-repeat right top #f9f9f9;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
@@ -8463,7 +8467,8 @@ h1, h2, h3, h4, h5,
   @media (max-width: 991.98px) {
     #colorlib-aside {
       width: 270px;
-      background: url(../images/aside.png) no-repeat right top #000 !important;
+      background-color: #f9f9f9;
+      background: url(../images/ribbon_bez-01.png) no-repeat right top #fff !important;
       -moz-transform: translateX(-270px);
       -webkit-transform: translateX(-270px);
       -ms-transform: translateX(-270px);
@@ -8513,6 +8518,7 @@ h1, h2, h3, h4, h5,
       text-transform: uppercase;
       letter-spacing: 1px; }
       #colorlib-aside #colorlib-main-menu ul li a {
+        
         color: #000;
         text-decoration: none;
         position: relative;
@@ -9092,10 +9098,6 @@ textarea.form-control {
 .bg-primary {
   background:#dfd0a9 !important; }
 
-.image-popup {
-  cursor: -webkit-zoom-in;
-  cursor: -moz-zoom-in;
-  cursor: zoom-in; }
 
 .mfp-with-zoom .mfp-container,
 .mfp-with-zoom.mfp-bg {
