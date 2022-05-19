@@ -1,6 +1,6 @@
 Portfolio site showcasing exciting motion graphics that use stellar 3D design and imagery by talented multidisciplinary artist Idny Kavon.
 
-Key features 
+Key features: 
 Bootstrap 4
 HTML5 & CSS3
 Light & Courageous design
