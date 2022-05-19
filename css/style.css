@@ -555,9 +555,7 @@ pre {
   padding-left: 4px;
   padding-bottom: 8px; }
 
- #hp-link {
-   padding:0;
- }
+ 
 
 .col {
   -ms-flex-preferred-size: 0;
@@ -1055,7 +1053,7 @@ pre {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
-    max-width: 100%; }
+    max-width: 50%; }
   .col-md-7 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 58.33333%;
