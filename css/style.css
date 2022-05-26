@@ -57,7 +57,7 @@ body {
   line-height: 1.5;
   color: rgb(255,255,255);
   text-align: left;
-  background-color: #f9f9f9; }
+  background-color: #FDFDFD; }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important; }
@@ -8393,7 +8393,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background: #f9f9f9;
+  background: #FDFDFD;
   font-size: 15px;
   line-height: 1.8;
   font-weight: 400;
@@ -8407,7 +8407,7 @@ body {
       -o-transform: translateX(0);
       transform: translateX(0);
       width: 270px;
-      background: #f9f9f9;
+      background: #FDFDFD;
       z-index: 999;
       position: fixed; }
     body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
@@ -8453,7 +8453,7 @@ h1, h2, h3, h4, h5,
   right: 0;
   overflow-y: hidden;
   z-index: 1001;
-  background: url(../images/ribbon_bez-01.png) no-repeat right top #f9f9f9;
+  background: url(../images/ribbon_bez-01.png) no-repeat right top #FDFDFD;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
@@ -8465,8 +8465,8 @@ h1, h2, h3, h4, h5,
   @media (max-width: 991.98px) {
     #colorlib-aside {
       width: 270px;
-      background-color: #f9f9f9;
-      background: url(../images/ribbon_bez-01.png) no-repeat right top #f9f9f9 !important;
+      background-color: #FDFDFD;
+      background: url(../images/ribbon_bez-01.png) no-repeat right top #FDFDFD !important;
       -moz-transform: translateX(-270px);
       -webkit-transform: translateX(-270px);
       -ms-transform: translateX(-270px);
@@ -8672,7 +8672,7 @@ h1, h2, h3, h4, h5,
       content: '';
       width: 20px;
       height: 2px;
-      background:#f9f9f9;
+      background:#FDFDFD;
       position: absolute;
       left: 0;
       -moz-transition: all 0.2s ease;
