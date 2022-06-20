@@ -2,8 +2,7 @@ Portfolio site showcasing exciting motion graphics that use stellar 3D design an
 Template by: Colorib
 
 Key features: 
-
-Bootstrap 4
+- Bootstrap 4
 - HTML5 & CSS3
 - Light & Courageous design
 - Multi-page template
